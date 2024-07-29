@@ -1,0 +1,25 @@
+{
+  "name": "my-cashier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Okta",
+  "license": "ISC",
+  "dependencies": {
+    "@electron/remote": "^2.0.1",
+    "fs": "0.0.1-security",
+    "imask": "^6.2.2",
+    "md5": "^2.3.0",
+    "path": "^0.12.7",
+    "sqlite3": "^5.0.2",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "electron": "^16.2.2",
+    "electron-packager": "^15.5.2",
+    "packager": "^0.1.9"
+  }
+}
